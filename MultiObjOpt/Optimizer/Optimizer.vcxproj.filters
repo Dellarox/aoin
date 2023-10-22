@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Program">
+      <UniqueIdentifier>{77df54b0-b769-4c93-9d91-a9831cb8e362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{cdf605c0-0fc9-46d1-94e5-8554740edea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problems">
+      <UniqueIdentifier>{3b4b891c-edc6-455b-8fe2-869f42c56b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problems\DTLZ">
+      <UniqueIdentifier>{4473ec9d-84be-461f-b8fa-b3a106f72aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problems\MSRCPSP">
+      <UniqueIdentifier>{11db8e53-f630-4975-8a79-674ae964df6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problems\TTP">
+      <UniqueIdentifier>{6ec765de-6ad2-4808-8d9b-09fc67691811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problems\ZDT">
+      <UniqueIdentifier>{53fb04c2-d65b-4fe8-8db5-eeec41a2ddee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers">
+      <UniqueIdentifier>{b554cb23-3391-4a98-b122-c493652789c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\ConfigReader">
+      <UniqueIdentifier>{4b12a6b3-ea17-4df6-b6ed-227e35fe5cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms">
+      <UniqueIdentifier>{1232967b-1209-4830-afcb-467794aeb86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms\Clustering">
+      <UniqueIdentifier>{60c9e7bb-a19a-4120-a715-1865ca67104d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms\Individual">
+      <UniqueIdentifier>{098faef8-b8f9-4c50-95b2-c91b7d18fc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers">
+      <UniqueIdentifier>{1c1b7531-ead7-4e44-bf8a-1d4f78560a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms\Operators">
+      <UniqueIdentifier>{93567439-925e-4bd3-bac1-2737cac0d127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms\ResultWriter">
+      <UniqueIdentifier>{f21fc567-32de-4ce8-88f8-1d2b889bd8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Optimizers\EvolutionaryAlgorithms\SingleObjectiveOptimizers">
+      <UniqueIdentifier>{f541e1a1-81a8-4217-8f27-e1ecde745c76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Program.cpp">
+      <Filter>Source Files\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DasDennis.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Random.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ReadUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\DTLZ\DTLZReader.cpp">
+      <Filter>Source Files\Problems\DTLZ</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\DTLZ\ProblemDTLZ.cpp">
+      <Filter>Source Files\Problems\DTLZ</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\MSRCPSPReader.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\ProblemMSRCPSP_TaskAssign.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\ProblemMSRCPSP_TaskOrdering.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\Resource.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\Schedule.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\Skill.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\MSRCPSP\Task.cpp">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ZDT\ProblemZDT.cpp">
+      <Filter>Source Files\Problems\ZDT</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\ZDT\ZDTReader.cpp">
+      <Filter>Source Files\Problems\ZDT</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TTP\ProblemTTP_CityOrderKnapBin_MO.cpp">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TTP\ProblemTTP_CityOrderKnapBin_SO.cpp">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TTP\TTP.cpp">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Problems\TTP\TTPReader.cpp">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\ConfigReader\ConfigLines.cpp">
+      <Filter>Source Files\Optimizers\ConfigReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\ConfigReader\ConfigReader.cpp">
+      <Filter>Source Files\Optimizers\ConfigReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Clustering\NonDominatedSorting.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Clustering</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Individual\GeneModifier.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Individual</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Individual\Individual.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Individual</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\BNTGA.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\MOEAD.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\NSGAII.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\NTGA2.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\SPEA2.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\SingleObjectiveOptimizers\GeneticAlgorithm.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\SingleObjectiveOptimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\ResultWriter\ResultsWriter.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\ResultWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Crossover_SBX.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Crossover_TTP_OX_SX.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Crossover_UniformCX.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\CrossoverOperator.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Mutation_Polynomial.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Mutation_RandomBit.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Mutation_TTP_Reverse_Flip.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\MutationOperator.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\Operators\Operators.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\ArchiveUtils.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizers\EvolutionaryAlgorithms\AggregatedFitness.cpp">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program\Program.h">
+      <Filter>Source Files\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\ProgramParams.h">
+      <Filter>Source Files\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Common.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DasDennis.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Random.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ReadUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\DTLZ\DTLZParams.h">
+      <Filter>Source Files\Problems\DTLZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\DTLZ\DTLZReader.h">
+      <Filter>Source Files\Problems\DTLZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\DTLZ\ProblemDTLZ.h">
+      <Filter>Source Files\Problems\DTLZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\MSRCPSPReader.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\ProblemMSRCPSP_TaskAssign.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\ProblemMSRCPSP_TaskOrdering.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\Resource.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\Schedule.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\Skill.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\MSRCPSP\Task.h">
+      <Filter>Source Files\Problems\MSRCPSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\ZDT\ProblemZDT.h">
+      <Filter>Source Files\Problems\ZDT</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\ZDT\ZDTParams.h">
+      <Filter>Source Files\Problems\ZDT</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\ZDT\ZDTReader.h">
+      <Filter>Source Files\Problems\ZDT</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\TTP\ProblemTTP_CityOrderKnapBin_MO.h">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\TTP\ProblemTTP_CityOrderKnapBin_SO.h">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\TTP\TTP.h">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\TTP\TTPJavaEvalData.h">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\TTP\TTPReader.h">
+      <Filter>Source Files\Problems\TTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\Problem.h">
+      <Filter>Source Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\ProblemEncoding.h">
+      <Filter>Source Files\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\ConfigReader\ConfigLines.h">
+      <Filter>Source Files\Optimizers\ConfigReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\ConfigReader\ConfigReader.h">
+      <Filter>Source Files\Optimizers\ConfigReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Clustering\NonDominatedSorting.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Clustering</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Individual\GeneModifier.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Individual</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Individual\Individual.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Individual</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\BNTGA.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\MOEAD.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\NSGAII.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\NTGA2.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers\SPEA2.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\MultiObjectiveOptimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\SingleObjectiveOptimizers\GeneticAlgorithm.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\SingleObjectiveOptimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\ResultWriter\ResultsWriter.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\ResultWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Crossover_SBX.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Crossover_TTP_OX_SX.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Crossover_UniformCX.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\CrossoverOperator.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Mutation_Polynomial.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Mutation_RandomBit.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Mutation_TTP_Reverse_Flip.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\MutationOperator.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\Operators\Operators.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\ArchiveUtils.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\EvolutionaryAlgorithms\AggregatedFitness.h">
+      <Filter>Source Files\Optimizers\EvolutionaryAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\OptimizationResult.h">
+      <Filter>Source Files\Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\Optimizer.h">
+      <Filter>Source Files\Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizers\OptimizerParams.h">
+      <Filter>Source Files\Optimizers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
